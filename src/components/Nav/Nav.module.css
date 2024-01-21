@@ -5,6 +5,8 @@
     border: 1px solid #d0d5dd;
     border-radius: 100px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 .brand {
     display: flex;
@@ -24,4 +26,9 @@
 }
 .blueDot {
     color: #528bff
+}
+.navItems {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px; 
 }
