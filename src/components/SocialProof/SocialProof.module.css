@@ -1,0 +1,19 @@
+.socialProof {
+  width: 76%;
+  margin: 60px auto;
+  text-align: center;
+}
+.socialProofText {
+  color: #475467;
+  font-size: 1.2rem;
+  margin-bottom: 36px;
+}
+.socialProofIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialProofIcon {
+  width: 100px;
+  height: 40px;
+}
