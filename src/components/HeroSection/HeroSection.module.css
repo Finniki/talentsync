@@ -1,0 +1,104 @@
+.heroSection {
+  width: 76%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.textArea {
+  width: 50%;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.headerText {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.header {
+  font-size: 4rem;
+  color: #1d2939;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -1.28px;
+}
+.description {
+  font-size: 1.6rem;
+  color: #667085;
+}
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.aiCta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.ctaDescription {
+  color: #175cd3;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.review {
+  padding-left: 14px;
+  display: flex;
+  gap: 12px;
+}
+.reviewImage {
+  height: 36px;
+  width: 36px;
+  margin-left: -14px;
+}
+.rating {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+}
+.reviewText {
+  font-size: 1.2rem;
+  color: #475467;
+}
+.heroImageCard {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid #b2ddff;
+  border-radius: 16px;
+  background-color: #eff8ff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.heroImageGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.heroImages {
+  width: 100px;
+  height: auto;
+}
+.heroImageIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+.heroImageIconDiv {
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #d1e9ff;
+  border-radius: 50%;
+}
+.heroImageIcon {
+  width: 16px;
+  height: 16px;
+}

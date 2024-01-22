@@ -1,11 +1,12 @@
-import Nav from './components/Nav/Nav';
-import './App.css';
+import Nav from "./components/Nav/Nav";
+import HeroSection from "./components/HeroSection/HeroSection";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Nav/>
+      <header className="header">
+        <HeroSection />
       </header>
     </div>
   );
