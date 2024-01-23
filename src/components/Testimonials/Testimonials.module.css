@@ -1,0 +1,91 @@
+.testimonials {
+  margin: 0 auto;
+  display: flex;
+  padding: 96px 12%;
+  justify-content: space-between;
+  background: #f9fafb;
+}
+.testimonialsTextArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  width: 50%;
+  padding-right: 60px;
+}
+.testimonialsIcon {
+  width: 60px;
+}
+.testimonialsText {
+  color: #101828;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.6px;
+}
+.testimonialsPerson {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+.testimonialsPersonPhoto {
+  width: 40px;
+  height: auto;
+}
+.testimonialsPersonInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  gap: 2px;
+  width: 70%;
+}
+.testimonialsPersonName {
+  color: #101828;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.testimonialsPersonRole {
+  color: #475467;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.testimonialsPersonArrows {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+.testimonialsPersonArrowDiv {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #d1e9ff;
+  border-radius: 50%;
+  background-color: #ffffffe6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.testimonialsImageArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonialsImageTopFlex {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+.testimonialsImageBottomFlex {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.testimonialsImageDiv {
+  width: 120px;
+}
+.testimonialsImage {
+  width: 100%;
+  height: auto;
+}
