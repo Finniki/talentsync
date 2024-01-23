@@ -8,12 +8,7 @@ import secondary from "../../assets/buttonStyles/secondary";
 import styles from "./Nav.module.css";
 
 const Nav = () => {
-  const navItems = {
-    Products: "clearlinkproject.netlify.app",
-    Solutions: "clearlinkproject.netlify.app",
-    Resource: "clearlinkproject.netlify.app",
-    Pricing: "clearlinkproject.netlify.app",
-  };
+  const navItems = ["Products", "Solutions", "Resources", "Pricing"];
   return (
     <div className={styles.nav}>
       <div className={styles.brand}>
@@ -24,16 +19,8 @@ const Nav = () => {
       </div>
       {
         <div className={styles.navItems}>
-          {Object.entries(navItems).map((navItems, index) => {
-            const [linkName, link] = navItems;
-            return (
-              <NavItems
-                key={linkName}
-                linkName={linkName}
-                link={link}
-                showArrow={index < 3}
-              />
-            );
+          {navItems.map((item, index) => {
+            return <NavItems key={index} item={item} showArrow={index < 3} />;
           })}
         </div>
       }
