@@ -60,9 +60,7 @@ const Support = () => {
         <p className={styles.supportDescription}>
           Everything you need to know about the product and billing. Can’t find
           the answer you’re looking for? Please{" "}
-          <a href="clearlinkproject.netlify.app" className={styles.supportLink}>
-            chat to our friendly team.
-          </a>
+          <p className={styles.supportLink}>chat to our friendly team.</p>
         </p>
       </div>
       <div className={styles.faqItemsFlex}>

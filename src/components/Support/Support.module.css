@@ -30,6 +30,8 @@
 }
 .supportLink {
   color: #667085;
+  text-decoration: underline;
+  cursor: pointer;
 }
 .faqItemsFlex {
   display: flex;
