@@ -59,27 +59,27 @@ const HeroSection = () => {
               <img
                 src={Avatar}
                 className={styles.reviewImage}
-                alt="an avatar image"
+                alt="an avatar"
               ></img>
               <img
                 src={Avatar1}
                 className={styles.reviewImage}
-                alt="an avatar image"
+                alt="an avatar"
               ></img>
               <img
                 src={Avatar2}
                 className={styles.reviewImage}
-                alt="an avatar image"
+                alt="an avatar"
               ></img>
               <img
                 src={Avatar3}
                 className={styles.reviewImage}
-                alt="an avatar image"
+                alt="an avatar"
               ></img>
               <img
                 src={Avatar4}
                 className={styles.reviewImage}
-                alt="an avatar image"
+                alt="an avatar"
               ></img>
             </div>
             <div>
