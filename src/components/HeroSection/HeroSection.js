@@ -64,7 +64,7 @@ const HeroSection = () => {
             </div>
             <div>
               <div className={styles.rating}>
-                <Rating name="read-only" value="5" readOnly />
+                <Rating name="read-only" value={5} readOnly />
                 <Box
                   sx={{
                     color: "#344054",

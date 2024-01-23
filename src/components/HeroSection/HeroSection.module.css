@@ -36,6 +36,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  cursor: pointer;
 }
 .ctaDescription {
   color: #175cd3;
