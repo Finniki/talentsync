@@ -1,0 +1,23 @@
+.footerLinksFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 80px;
+}
+li {
+  list-style: none;
+  padding: 8px 0;
+}
+.footerLinkCategory {
+  color: #667085;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 24px;
+}
+.footerLinks {
+  color: #475467;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 16px;
+  cursor: pointer;
+}

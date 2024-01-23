@@ -1,0 +1,26 @@
+.copyright {
+  height: 100px;
+  background-color: #f9fafb;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12%;
+}
+.footerText {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  color: #667085;
+}
+.socials {
+  display: flex;
+  gap: 24px;
+}
+.socialIcon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
