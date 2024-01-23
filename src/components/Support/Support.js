@@ -60,7 +60,12 @@ const Support = () => {
         <p className={styles.supportDescription}>
           Everything you need to know about the product and billing. Can’t find
           the answer you’re looking for? Please{" "}
-          <a href="#" target="_blank" className={styles.supportLink}>
+          <a
+            href="clearlinkproject.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.supportLink}
+          >
             chat to our friendly team.
           </a>
         </p>

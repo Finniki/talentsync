@@ -56,11 +56,31 @@ const HeroSection = () => {
           </div>
           <div className={styles.review}>
             <div className={styles.reviewImages}>
-              <img src={Avatar} className={styles.reviewImage}></img>
-              <img src={Avatar1} className={styles.reviewImage}></img>
-              <img src={Avatar2} className={styles.reviewImage}></img>
-              <img src={Avatar3} className={styles.reviewImage}></img>
-              <img src={Avatar4} className={styles.reviewImage}></img>
+              <img
+                src={Avatar}
+                className={styles.reviewImage}
+                alt="an avatar image"
+              ></img>
+              <img
+                src={Avatar1}
+                className={styles.reviewImage}
+                alt="an avatar image"
+              ></img>
+              <img
+                src={Avatar2}
+                className={styles.reviewImage}
+                alt="an avatar image"
+              ></img>
+              <img
+                src={Avatar3}
+                className={styles.reviewImage}
+                alt="an avatar image"
+              ></img>
+              <img
+                src={Avatar4}
+                className={styles.reviewImage}
+                alt="an avatar image"
+              ></img>
             </div>
             <div>
               <div className={styles.rating}>

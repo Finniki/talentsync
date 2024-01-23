@@ -9,10 +9,10 @@ import styles from "./Nav.module.css";
 
 const Nav = () => {
   const navItems = {
-    Products: "#",
-    Solutions: "#",
-    Resource: "#",
-    Pricing: "#",
+    Products: "clearlinkproject.netlify.app",
+    Solutions: "clearlinkproject.netlify.app",
+    Resource: "clearlinkproject.netlify.app",
+    Pricing: "clearlinkproject.netlify.app",
   };
   return (
     <div className={styles.nav}>
